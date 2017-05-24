@@ -1,0 +1,7 @@
+initial
+
+
+ng serve - server is up port localhost:4200
+close server ctrl+c
+ng g component <new_component> 
+ng g service <service_name>
