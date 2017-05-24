@@ -1,0 +1,14 @@
+<form  (submit)="AddPhone()">
+
+  <input class="form-control" type="text" [(ngModel)]="text" name="first"/>
+</form>
+
+
+<h3> Phone list</h3>
+<ul>
+
+  <li *ngFor="let phone of phones">
+  {{ phone.text }} <button class="btn btn-danger btn-sm" (click)="deletePhone(phone.text)">X</button>
+
+  </li>
+</ul>
